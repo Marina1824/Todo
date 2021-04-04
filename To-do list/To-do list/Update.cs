@@ -53,7 +53,7 @@ namespace To_do_list
                                 "Введите дату в формате дд.мм.гггг(при пропуске дата установится текущая) ");
                             var datestring = Console.ReadLine();
 
-                            if ((datestring != "")) //|| (datetask>=DateTime.Now))
+                            if ((datestring != "")) 
                             {
                                 datetask = Convert.ToDateTime(datestring);
                                 task.date = datetask;
